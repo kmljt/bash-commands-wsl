@@ -1,0 +1,237 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  cd ..
+    5  ls
+    6  ls -lah
+    7  cd ..
+    8  pwd
+    9  ls
+   10  ls -lah
+   11  ls --help
+   12  ls -l
+   13  ls -a
+   14  ls
+   15  ls -l
+   16  ls -h
+   17  ls -lh
+   18  python
+   19  python3
+   20  exit
+   21  ls
+   22  pwd
+   23  --version
+   24  cat /etc/os-release
+   25  pwd
+   26  cd ..
+   27  ls
+   28  cd kamal
+   29  ls
+   30  git clone http://root.cern/git/llvm.git cling_src
+   31  ls
+   32  pwd
+   33  mkdir bashtest
+   34  cd bashtest
+   35  pwd
+   36  ls
+   37  rmdir --help
+   38  mkdir new
+   39  touch new/text.txt
+   40  ls
+   41  ls new
+   42  rmdir new
+   43  rmdir --ignore-fail-on-non-empty new
+   44  ls
+   45  ls new
+   46  cat new/text.txt
+   47  pwd
+   48  echo "Hello"
+   49  echo "Hello" > a.txt
+   50  ls
+   51  ls -lh
+   52  ls -l
+   53  echo a.txt < "l"
+   54  echo "Nah" > a.txt
+   55  ls
+   56  cat a.txt
+   57  echo -help
+   58  echo --help
+   59  echo "--help"
+   60  grep
+   61  ls
+   62  cat a.txt
+   63  echo "Hello" > a.txt
+   64  cat a.txt
+   65  echo ", World >> a.txt\n\n"
+   66  cat a.txt
+   67  echo ", World" >> a.txt
+   68  cat a.txt
+   69  echo "lol" >> a.txt
+   70  cat a.txt
+   71  echo "\blol" >> a.txt
+   72  cat a.txt
+   73  less a.txt
+   74  head a.txt
+   75  grep --help
+   76  ls
+   77  grep "lol" a.txt
+   78  grep "l" a.txt
+   79  grep "rl" a.txt
+   80  grep "l" a.txt
+   81  wc
+   82  ls
+   83  cd bashtest
+   84  ls
+   85  wc --help
+   86  wc a.txt
+   87  wc
+   88  chmod __help
+   89  chmod --help
+   90  df
+   91  du
+   92  free
+   93  free -h
+   94  top
+   95  ssh --help
+   96  ssh
+   97  ssh google.com
+   98  ls
+   99  ls new
+  100  cp a.txt new/a.txt
+  101  ls new
+  102  cat new/a.txt
+  103  cd new
+  104  pwd
+  105  nano
+  106  ls
+  107  rm a.txt
+  108  cd ..
+  109  nano a.txt
+  110  cat a.txt
+  111  nano a.txt
+  112  cat a.txt
+  113  vim
+  114  vi
+  115  vim a.txt
+  116  cat a.txt
+  117  emacs
+  118  history
+  119  man
+  120  man man
+  121  man ls
+  122  man apt
+  123  apt
+  124  emacs
+  125  apt
+  126  apt install emacs
+  127  sudo apt install emacs
+  128  apt-get install emacs
+  129  sudo apt-get install emacs
+  130* ls
+  131* cd cling_src
+  132* git checkout cling-patches
+  133* ls
+  134* cd tools
+  135* git clone http://root.cern/git/cling.git
+  136* git clone http://root.cern/git/clang.git
+  137  man echo
+  138  man cat
+  139  date
+  140  cal
+  141  cal 11 2002
+  142  sudo apt install command-not-found
+  143  cal
+  144  sudo apt install ncal
+  145* ls
+  146* cd clang
+  147* git checkout cling-patches
+  148* pwd
+  149* cd ../..
+  150* ls
+  151* mkdir build
+  152* ls
+  153* cd build
+  154* l
+  155* ls
+  156* ls -l
+  157* ls -la
+  158* l
+  159* pwd
+  160* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  161* pwd
+  162* ls
+  163* ls ..
+  164* cmake
+  165  sudo apt-get update
+  166  sudo apt-get install apt-transport-https ca-certificates gnupg software-properties-common wget
+  167  sudo apt-get install cmake
+  168  cmake
+  169* pwd
+  170* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  171  sudo apt-get install emacs
+  172* pwd
+  173* cd ..
+  174* ls
+  175* ls ..
+  176* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  177  sudo apt-get update && sudo apt-get install build-essential
+  178* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  179* ls
+  180* cd build
+  181* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  182* ls
+  183* ls ..
+  184* cp ../CMakeLists.txt CMakeLists.txt
+  185* ls
+  186* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  187* pwd
+  188* ls ..
+  189* ls ../src
+  190* pwd
+  191* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../src
+  192* mkdir ../src
+  193* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../src
+  194* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ..
+  195* pwd
+  196* cd ../..
+  197* pwd
+  198* ls
+  199* cd build
+  200* mkdir build
+  201* cd build
+  202* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../cling_src
+  203* ../src
+  204* sudo apt install -y wget unar
+  205* wget https://root.cern/download/cling/cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
+  206* ls
+  207* pwd
+  208* ls
+  209* unar cling_2020-11-05_ubuntu18.04.tar.bz2
+  210* unar cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
+  211* ls
+  212* cd cling_2020-11-05_ROOT-ubuntu2004
+  213* ls
+  214* cd bin
+  215* ls
+  216* pwd
+  217* cling
+  218* ./cling
+  219  history
+  220  git
+  221  history --help
+  222  history --h
+  223  ls --h
+  224  man history
+  225  cd ~
+  226  pwd
+  227  cd /
+  228  pwd
+  229  cd `\n`
+  230  cd ~
+  231  pwd
+  232  history
+  233  ls
+  234  ls -lf
+  235  ls -lh
+  236  mkdir command-history
+  237  cd command-history
