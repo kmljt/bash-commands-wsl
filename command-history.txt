@@ -127,13 +127,13 @@
   127  sudo apt install emacs
   128  apt-get install emacs
   129  sudo apt-get install emacs
-  130* ls
-  131* cd cling_src
-  132* git checkout cling-patches
-  133* ls
-  134* cd tools
-  135* git clone http://root.cern/git/cling.git
-  136* git clone http://root.cern/git/clang.git
+  130  ls
+  131  cd cling_src
+  132  git checkout cling-patches
+  133  ls
+  134  cd tools
+  135  git clone http://root.cern/git/cling.git
+  136  git clone http://root.cern/git/clang.git
   137  man echo
   138  man cat
   139  date
@@ -142,80 +142,80 @@
   142  sudo apt install command-not-found
   143  cal
   144  sudo apt install ncal
-  145* ls
-  146* cd clang
-  147* git checkout cling-patches
-  148* pwd
-  149* cd ../..
-  150* ls
-  151* mkdir build
-  152* ls
-  153* cd build
-  154* l
-  155* ls
-  156* ls -l
-  157* ls -la
-  158* l
-  159* pwd
-  160* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
-  161* pwd
-  162* ls
-  163* ls ..
-  164* cmake
+  145  ls
+  146  cd clang
+  147  git checkout cling-patches
+  148  pwd
+  149  cd ../..
+  150  ls
+  151  mkdir build
+  152  ls
+  153  cd build
+  154  l
+  155  ls
+  156  ls -l
+  157  ls -la
+  158  l
+  159  pwd
+  160  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  161  pwd
+  162  ls
+  163  ls ..
+  164  cmake
   165  sudo apt-get update
   166  sudo apt-get install apt-transport-https ca-certificates gnupg software-properties-common wget
   167  sudo apt-get install cmake
   168  cmake
-  169* pwd
-  170* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  169  pwd
+  170  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
   171  sudo apt-get install emacs
-  172* pwd
-  173* cd ..
-  174* ls
-  175* ls ..
-  176* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  172  pwd
+  173  cd ..
+  174  ls
+  175  ls ..
+  176  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
   177  sudo apt-get update && sudo apt-get install build-essential
-  178* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
-  179* ls
-  180* cd build
-  181* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
-  182* ls
-  183* ls ..
-  184* cp ../CMakeLists.txt CMakeLists.txt
-  185* ls
-  186* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
-  187* pwd
-  188* ls ..
-  189* ls ../src
-  190* pwd
-  191* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../src
-  192* mkdir ../src
-  193* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../src
-  194* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ..
-  195* pwd
-  196* cd ../..
-  197* pwd
-  198* ls
-  199* cd build
-  200* mkdir build
-  201* cd build
-  202* cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../cling_src
-  203* ../src
-  204* sudo apt install -y wget unar
-  205* wget https://root.cern/download/cling/cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
-  206* ls
-  207* pwd
-  208* ls
-  209* unar cling_2020-11-05_ubuntu18.04.tar.bz2
-  210* unar cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
-  211* ls
-  212* cd cling_2020-11-05_ROOT-ubuntu2004
-  213* ls
-  214* cd bin
-  215* ls
-  216* pwd
-  217* cling
-  218* ./cling
+  178  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  179  ls
+  180  cd build
+  181  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  182  ls
+  183  ls ..
+  184  cp ../CMakeLists.txt CMakeLists.txt
+  185  ls
+  186  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE”
+  187  pwd
+  188  ls ..
+  189  ls ../src
+  190  pwd
+  191  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../src
+  192  mkdir ../src
+  193  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../src
+  194  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ..
+  195  pwd
+  196  cd ../..
+  197  pwd
+  198  ls
+  199  cd build
+  200  mkdir build
+  201  cd build
+  202  cmake -DCMAKE_INSTALL_PREFIX="/home/kamal/" -DCMAKE_BUILD_TYPE=“RELEASE” ../cling_src
+  203  ../src
+  204  sudo apt install -y wget unar
+  205  wget https://root.cern/download/cling/cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
+  206  ls
+  207  pwd
+  208  ls
+  209  unar cling_2020-11-05_ubuntu18.04.tar.bz2
+  210  unar cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
+  211  ls
+  212  cd cling_2020-11-05_ROOT-ubuntu2004
+  213  ls
+  214  cd bin
+  215  ls
+  216  pwd
+  217  cling
+  218  ./cling
   219  history
   220  git
   221  history --help
@@ -235,3 +235,113 @@
   235  ls -lh
   236  mkdir command-history
   237  cd command-history
+  238  history > command-history.txt
+  239  ls
+  240  cat command-history.txt
+  241  git init
+  242  git add command-history.txt
+  243  git commit -m "Added command history"
+  244  git config --list
+  245  git config --global user.email kamaljotsingh.pgr@gmail.com
+  246  git config --global user.name kmljt
+  247  git commit -m "Added command history"
+  248  git remote add origin git@github.com:kmljt/bash-commands-wsl.git
+  249  git push -u origin master
+  250  pwd
+  251  explorer.exe .
+  252  home\kamal\build\cling_2020-11-05_ROOT-ubuntu2004\bin\cling
+  253  "home\kamal\build\cling_2020-11-05_ROOT-ubuntu2004\bin\cling"
+  254  home/kamal/build/cling_2020-11-05_ROOT-ubuntu2004/bin/cling
+  255  ./home/kamal/build/cling_2020-11-05_ROOT-ubuntu2004/bin/cling
+  256  cd /
+  257  ./home/kamal/build/cling_2020-11-05_ROOT-ubuntu2004/bin/cling
+  258  cling
+  259  cd ~
+  260  cling
+  261  cd ~
+  262  pwd
+  263  cling
+  264  ./cling
+  265  ls
+  266  cd build
+  267  cling
+  268  cd ..
+  269  ls
+  270  .zshrc
+  271  nano .zshrc
+  272  cat .zshrc
+  273  cling
+  274  vim .zshrc
+  275  cat .zshrc
+  276  nano .zshrc
+  277  cling
+  278  pwd
+  279  cd /
+  280  pwd
+  281  ls
+  282  ls -lh
+  283  cling
+  284  cd ~
+  285  cling
+  286  sudo apt-get update
+  287  pwd
+  288  apt
+  289  apt list
+  290  ls
+  291  bash
+  292  cd command-history
+  293  ls
+  294  cat command-history.txt
+  295  cal
+  296  apt update
+  297  sudo apt update
+  298  cd ..
+  299  sudo apt update
+  300  sudo apt upgrade
+  301  bash
+  302  ls
+  303  ls -al
+  304  cat .bashrc
+  305  code .
+  306  pwd
+  307  cd /
+  308  ls
+  309  cd etc
+  310  ls
+  311  cat bash.bashrc
+  312  cd /home/kamal
+  313  ls -la
+  314  code .zshrc
+  315  cal
+  316  cat .zshrc
+  317  cd /etc
+  318  cd etc
+  319  cd /etc
+  320  ls -al
+  321  cd ~
+  322  ls -al
+  323  cat .zshrc
+  324  cal
+  325  ncal
+  326  bash
+  327  sudo apt install ncal
+  328  cal
+  329  cal --help
+  330  man cal
+  331  ncal
+  332  cal
+  333  man cal
+  334  cal -h
+  335  man cal
+  336  cal -h --help
+  337  man cal -h
+  338  man
+  339  cal
+  340  cal 11 2002
+  341  ncal
+  342  cling
+  343  ls
+  344  cd command-history
+  345  ls
+  346  cat command-history.txt
+  347  history
